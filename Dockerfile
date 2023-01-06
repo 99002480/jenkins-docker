@@ -1,2 +1,2 @@
 FROM ubuntu:18.04
-RUN sudo-apt install gcovr
+RUN sudo apt-get install gcovr
