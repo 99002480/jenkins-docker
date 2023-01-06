@@ -1,4 +1,3 @@
-FROM ubuntu:18.04
-RUN apt-get install python
+FROM python:3
 RUN pip install gcovr
 
