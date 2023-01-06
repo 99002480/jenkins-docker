@@ -1,11 +1,11 @@
 pipeline {
     agent {
-        docker { image 'ubuntu 20.04.6' }
+       dockerfile true
     }
     stages {
         stage('Test') {
             steps {
-                sh 'node --version'
+                sh 'gcovr'
             }
         }
     }
